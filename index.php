@@ -19,33 +19,39 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
     <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- index css link  -->
     <link rel="stylesheet" href="index.css">
 
     <!-- header css link  -->
-    <link rel="stylesheet" href="component/header/header.css">
+    <link rel="stylesheet" href="website/component/header/header.css">
 
     <!-- slider css link  -->
-    <link rel="stylesheet" href="component/slider/slider.css">
+    <link rel="stylesheet" href="website/component/slider/slider.css">
 
-    <!-- hero css linlk -->
-    <link rel="stylesheet" href="component/hero/hero.css">
+    <!-- hero css link -->
+    <link rel="stylesheet" href="website/component/hero/hero.css">
+
+   <!-- product grid  start -->
+   <link rel="stylesheet" href="website/component/products/product.css">
+
 
 </head>
 <body>
     <!-- header start -->
-   <?php include 'component/header/header.php'; ?>
+   <?php include 'website/component/header/header.php'; ?>
     <!-- header end -->
 
    <!-- slider start -->
-   <?php include 'component/slider/slider.php'; ?>
+   <?php include 'website/component/slider/slider.php'; ?>
    <!-- slider end -->
 
    <!-- hero start -->
-   <?php include 'component/hero/hero.php'; ?>
+   <?php include 'website/component/hero/hero.php'; ?>
 
-   
+   <!-- product grid  start -->
+   <?php include 'website/component/products/products.php'; ?>
+
 
 </body>
 </html>
