@@ -9,7 +9,8 @@
     background-color: #fff;
     padding: 40px;
     border-radius: 10px;
-    gap: 45px;
+    column-gap: 45px;
+    row-gap: 21px;
     margin: 20px;
 }
 
