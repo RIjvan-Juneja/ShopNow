@@ -74,8 +74,10 @@
    <!-- Trend Section start -->
    <?php include 'website/component/trend spad/trend.php'; ?>
    <!-- Trend Section end -->
-<!-- pluguens  -->
-<script src="CDN/jquery-3.3.1.min.js"></script>
+
+   <!-- pluguens  -->
+   <script src="CDN/jquery-3.3.1.min.js"></script>
+
    <!-- discount section start -->
    <?php include 'website/component/discount/discount.php'; ?>
    <!-- discount section end -->
