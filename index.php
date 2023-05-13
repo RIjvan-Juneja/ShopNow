@@ -49,6 +49,10 @@
    
 
 
+    <!-- ShopCard css linlk -->
+    <link rel="stylesheet" href="component/ShopCard/shopcard.css">
+
+
 </head>
 <body>
     <!-- header start -->
@@ -60,6 +64,13 @@
    <!-- slider end -->
 
    <!-- hero start -->
+   <?php include 'component/hero/hero.php'; ?>
+   <!-- hero end -->
+    
+   <!-- shopcard start -->
+   <?php include 'component/ShopCard/shopcard.php'; ?>
+   <!-- shopcard end -->
+
    <!-- <?php include 'website/component/hero/hero.php'; ?> -->
    <!-- hero end -->
 

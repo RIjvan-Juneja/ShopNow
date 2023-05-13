@@ -79,9 +79,17 @@ img{
 }
 
 
-.main-heading-for-all{
-    font-size: 30px;
-    color: #333333;
-    text-transform: capitalize;
-    margin: 30px 0px;
+
+
+
+
+/*======================================
+            Product-start section start  
+========================================*/
+
+.product-start-section{
+    background-color: var(--product-bg);
 }
+
+
+  /*============== Product-start end ============*/
