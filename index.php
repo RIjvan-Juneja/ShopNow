@@ -44,8 +44,7 @@
 
    <!-- hero start -->
    <?php include 'component/hero/hero.php'; ?>
-
-   
+   <!-- hero end -->
 
 </body>
 </html>
