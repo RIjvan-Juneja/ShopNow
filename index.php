@@ -32,6 +32,10 @@
     <!-- hero css linlk -->
     <link rel="stylesheet" href="component/hero/hero.css">
 
+    <!-- ShopCard css linlk -->
+    <link rel="stylesheet" href="component/ShopCard/shopcard.css">
+
+
 </head>
 <body>
     <!-- header start -->
@@ -45,6 +49,10 @@
    <!-- hero start -->
    <?php include 'component/hero/hero.php'; ?>
    <!-- hero end -->
+    
+   <!-- shopcard start -->
+   <?php include 'component/ShopCard/shopcard.php'; ?>
+   <!-- shopcard end -->
 
 </body>
 </html>
