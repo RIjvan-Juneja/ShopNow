@@ -79,3 +79,9 @@
     background: #ca1515;
     content: "";
 }
+
+.align-to-center-all-divs{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

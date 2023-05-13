@@ -3,7 +3,7 @@
    <section class="trend spad">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="col-lg-4 col-md-4 col-sm-6 align-to-center-all-divs">
                 <div class="trend__content">
                     <div class="section-title">
                         <h4>Hot Trend</h4>
@@ -58,7 +58,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="col-lg-4 col-md-4 col-sm-6 align-to-center-all-divs">
                 <div class="trend__content">
                     <div class="section-title">
                         <h4>Best seller</h4>
@@ -113,7 +113,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="col-lg-4 col-md-4 col-sm-6 align-to-center-all-divs">
                 <div class="trend__content">
                     <div class="section-title">
                         <h4>Feature</h4>
