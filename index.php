@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ShopNow</title>
     <!-- bootstrap 5 cdn  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="CDN/bootstrap.bundle.min.js"></script>
+
+    <!-- bootstrap 5 css  -->
+    <link rel="stylesheet" href="CDN/bootstrap.min.css">
 
     <!-- google font rubic cdn  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -19,18 +21,33 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
     <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- index css link  -->
     <link rel="stylesheet" href="index.css">
 
     <!-- header css link  -->
-    <link rel="stylesheet" href="component/header/header.css">
+    <link rel="stylesheet" href="website/component/header/header.css">
 
     <!-- slider css link  -->
-    <link rel="stylesheet" href="component/slider/slider.css">
+    <link rel="stylesheet" href="website/component/slider/slider.css">
 
-    <!-- hero css linlk -->
-    <link rel="stylesheet" href="component/hero/hero.css">
+    <!-- hero css link -->
+    <link rel="stylesheet" href="website/component/hero/hero.css">
+
+   <!-- product grid css link -->
+   <link rel="stylesheet" href="website/component/products/product.css">
+
+   <!-- Categories Section css link -->
+   <link rel="stylesheet" href="website/component/categories-5-big-photo/categories.css">
+
+   <!-- Trend Section css -->
+   <link rel="stylesheet" href="website/component/trend spad/trend.css">
+
+   <!-- discount section css -->
+   <link rel="stylesheet" href="website/component/discount/discount.css">
+
+   
+
 
     <!-- ShopCard css linlk -->
     <link rel="stylesheet" href="component/ShopCard/shopcard.css">
@@ -39,11 +56,11 @@
 </head>
 <body>
     <!-- header start -->
-   <?php include 'component/header/header.php'; ?>
+   <?php include 'website/component/header/header.php'; ?>
     <!-- header end -->
 
    <!-- slider start -->
-   <?php include 'component/slider/slider.php'; ?>
+   <?php include 'website/component/slider/slider.php'; ?>
    <!-- slider end -->
 
    <!-- hero start -->
@@ -54,5 +71,30 @@
    <?php include 'component/ShopCard/shopcard.php'; ?>
    <!-- shopcard end -->
 
+   <!-- <?php include 'website/component/hero/hero.php'; ?> -->
+   <!-- hero end -->
+
+   <!-- product grid  start -->
+   <?php include 'website/component/products/products.php'; ?>
+   <!-- product grid end -->
+
+   <!-- Categories Section start -->
+   <?php include 'website/component/categories-5-big-photo/categories.php'; ?>
+   <!-- Categories Section end -->
+
+   <!-- Trend Section start -->
+   <?php include 'website/component/trend spad/trend.php'; ?>
+   <!-- Trend Section end -->
+
+   <!-- pluguens  -->
+   <script src="CDN/jquery-3.3.1.min.js"></script>
+
+   <!-- discount section start -->
+   <?php include 'website/component/discount/discount.php'; ?>
+   <!-- discount section end -->
+
+
+
+   
 </body>
 </html>

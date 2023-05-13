@@ -15,7 +15,24 @@
 body{
     font-family: 'Rubik', sans-serif;
     color: #F1F3F6;
-}
+    background-color: #eafbff;
+    
+    }
+
+    /* Chrome, Safari */
+    ::-webkit-scrollbar {
+    width: 9px;
+    }
+    ::-webkit-scrollbar-track-piece  {
+    background-color: #C2D2E4;
+    }
+    ::-webkit-scrollbar-thumb:vertical {
+    height: 10px;
+    background-color: #70cbff;
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 25px;
+      }
 
 h1,h2,h3,h4,h5,h6,p,a{
     color: #212529;
@@ -55,6 +72,7 @@ img{
     background-color: #465465;
     color: white;
 }
+
 
 .container-fluid{
     width: 96.5%;
